@@ -1,0 +1,35 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const allStories = await getCollection("stories");
+const imageRatio = 0.3125;
+---
+
+<BaseLayout>
+  <div class="p-8">
+    <ul class="grid grid-cols-3 gap-x-4 gap-y-10">
+      {
+        allStories.map((story) => (
+          <li>
+            <a href={`/stories/${story.slug}`}>
+              <Image
+                src={story.data.image.src}
+                width={story.data.image.width * imageRatio}
+                height={story.data.image.height * imageRatio}
+                class="bg-gray-200 relative"
+                style="contain: paint"
+                alt=""
+                transition:name={`img-story-${story.slug}`}
+              />
+              <div class="text-center">
+                <p>{story.data.title}</p>
+              </div>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</BaseLayout>
