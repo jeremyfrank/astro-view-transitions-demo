@@ -1,5 +1,6 @@
 ---
 title: Walking Through Clouds
+author: Annie Brackemyre
 excerpt: How a 17-Year-Old from Southwest D.C. Found Confidence 2,000 Miles from Home and 13,000 Feet in the Air
 intro: Waking up to the sound of rain, Desahray Johnson began her day at Broken Arrow Ranch in Jackson Hole, Wyoming. It was August 7, 2022 and time for Johnson to begin her two-day climb up Grand Teton, a gruelling ascent 2.5 miles above sea level to the tallest peak in the Teton range.
 image:

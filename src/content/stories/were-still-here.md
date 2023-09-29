@@ -1,5 +1,6 @@
 ---
 title: “We’re Still Here”
+author: Annie Brackemyre
 excerpt: Restoring Access to Ancestral Land Along the Musconetcong Wild and Scenic River
 intro: Musconetcong Wild and Scenic River courses through western New Jersey’s highlands. The river is home to water buffalo and shad, and on any given day, you’ll find fishermen along the banks and paddlers working their way down stream.
 image:

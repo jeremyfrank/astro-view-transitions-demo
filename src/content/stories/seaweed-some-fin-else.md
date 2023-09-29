@@ -1,5 +1,6 @@
 ---
 title: Is That Seaweed or Some-Fin Else?
+author: Annie Brackemyre
 excerpt: NPF funded research is helping track great white sharks, protecting the species, and enabling public safety officials to use science to educate the public on the risk of recreating in the waters off Cape Cod National Seashore.
 intro: Every week is shark week during the summers at Cape Cod National Seashore. White sharks (_Carcharodon carcharias_), also known as great whites, are just as ubiquitous with summers at Cape Cod National Seashore as lobster rolls.
 image:
