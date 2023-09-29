@@ -12,21 +12,20 @@ const imageRatio = 0.3125;
     <ul class="grid grid-cols-3 gap-x-4 gap-y-10">
       {
         allStories.map((story) => (
-          <li>
-            <a href={`/stories/${story.slug}`}>
-              <Image
-                src={story.data.image.src}
-                width={story.data.image.width * imageRatio}
-                height={story.data.image.height * imageRatio}
-                class="bg-gray-200 relative"
-                style="contain: paint"
-                alt=""
-                transition:name={`img-story-${story.slug}`}
-              />
-              <div class="text-center">
-                <p>{story.data.title}</p>
-              </div>
+          <li class="relative flex flex-col gap-4">
+            <Image
+              src={story.data.image.src}
+              width={story.data.image.width * imageRatio}
+              height={story.data.image.height * imageRatio}
+              style="contain: paint;"
+              alt=""
+              transition:name={`img-story-${story.slug}`}
+            />
+            <a href={`/stories/${story.slug}`} class="text-xl hover:underline">
+              {story.data.title}
+              <span class="absolute inset-0" />
             </a>
+            <p class="text-gray-700">{story.data.excerpt}</p>
           </li>
         ))
       }

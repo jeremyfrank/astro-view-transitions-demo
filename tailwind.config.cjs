@@ -11,6 +11,7 @@ module.exports = {
     plugin(function ({ addBase, theme }) {
       addBase({
         body: { fontFamily: theme("fontFamily.serif") },
+        a: { color: theme("colors.sky.900") },
       });
     }),
   ],

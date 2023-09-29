@@ -16,12 +16,12 @@ const { Content } = await entry.render();
 ---
 
 <BaseLayout>
-  <div class="relative">
+  <div>
     <a
       href="/stories"
-      class="absolute bg-white/95 border rounded-full px-3 py-1 flex items-center gap-1 left-5 top-5 z-10"
+      class="absolute px-3 py-2 flex items-center gap-1 left-5 font-semibold font-sans text-xs uppercase"
     >
-      <span>←</span> Back
+      <span class="">‹</span> Back
     </a>
     <div class="max-w-4xl mx-auto py-20 space-y-5 text-center">
       <h1 class="text-6xl leading-tight">
@@ -30,12 +30,16 @@ const { Content } = await entry.render();
       <p class="max-w-2xl mx-auto text-lg">
         {entry.data.excerpt}
       </p>
+      <p class="text-gray-700 text-xs">
+        By {entry.data.author}
+      </p>
     </div>
     <Image
       src={entry.data.image.src}
       width={entry.data.image.width}
       height={entry.data.image.height}
       class="w-full"
+      style="contain: paint;"
       alt=""
       transition:name={`img-story-${entry.slug}`}
     />
