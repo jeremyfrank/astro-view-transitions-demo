@@ -1,4 +1,6 @@
 ---
+import type { TransitionDirectionalAnimations } from "@types/astro.js";
+
 import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 import BaseLayout from "../../layouts/BaseLayout.astro";
@@ -13,6 +15,50 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+
+const customAnimation = ({
+  delay,
+  duration,
+}: {
+  delay?: string;
+  duration?: string;
+} = {}): TransitionDirectionalAnimations => ({
+  forwards: {
+    old: [
+      {
+        name: "astroFadeOut",
+        duration: duration ?? "90ms",
+        easing: "linear",
+        fillMode: "both",
+      },
+      {
+        name: "customSlideToLeft",
+        duration: duration ?? "220ms",
+        easing: "linear",
+        fillMode: "both",
+      },
+    ],
+    new: [
+      {
+        name: "astroFadeIn",
+        duration: duration ?? "210ms",
+        easing: "linear",
+        delay: delay ?? "30ms",
+        fillMode: "both",
+      },
+      {
+        name: "customSlideFromRight",
+        duration: duration ?? "220ms",
+        easing: "linear",
+        fillMode: "both",
+      },
+    ],
+  },
+  backwards: {
+    old: [{ name: "astroFadeOut" }, { name: "customSlideToRight" }],
+    new: [{ name: "astroFadeIn" }, { name: "customSlideFromLeft" }],
+  },
+});
 ---
 
 <BaseLayout>
@@ -24,13 +70,22 @@ const { Content } = await entry.render();
       <span class="">‹</span> Back
     </a>
     <div class="max-w-4xl mx-auto py-20 space-y-5 text-center">
-      <h1 class="text-6xl leading-tight">
+      <h1
+        class="text-6xl leading-tight"
+        transition:animate={customAnimation({ delay: "100ms" })}
+      >
         {entry.data.title}
       </h1>
-      <p class="max-w-2xl mx-auto text-lg">
+      <p
+        class="max-w-2xl mx-auto text-lg text-gray-700"
+        transition:animate={customAnimation({ delay: "200ms" })}
+      >
         {entry.data.excerpt}
       </p>
-      <p class="text-gray-700 text-xs">
+      <p
+        class="text-gray-700 text-xs"
+        transition:animate={customAnimation({ delay: "300ms" })}
+      >
         By {entry.data.author}
       </p>
     </div>
@@ -52,3 +107,35 @@ const { Content } = await entry.render();
     <Content />
   </div>
 </BaseLayout>
+
+<style is:global>
+  @keyframes customSlideFromRight {
+    from {
+      transform: translateX(2%);
+    }
+  }
+
+  @keyframes customSlideFromLeft {
+    from {
+      transform: translateX(-2%);
+    }
+  }
+
+  @keyframes customSlideToRight {
+    to {
+      transform: translateX(2%);
+    }
+  }
+
+  @keyframes customSlideToLeft {
+    to {
+      transform: translateX(-2%);
+    }
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(30deg);
+    }
+  }
+</style>
