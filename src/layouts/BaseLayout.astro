@@ -13,11 +13,22 @@ import Logo from "../assets/logo-color.svg?raw";
     <ViewTransitions />
   </head>
   <body>
-    <div class="grid p-8">
+    <header>
       <span class="w-48">
         <Fragment set:html={Logo} />
       </span>
-    </div>
-    <slot />
+    </header>
+    <main>
+      <slot />
+    </main>
+    <style>
+      header {
+        display: grid;
+        padding: clamp(20px, 4vw, 30px);
+      }
+      main {
+        padding: 0 clamp(20px, 4vw, 30px);
+      }
+    </style>
   </body>
 </html>
