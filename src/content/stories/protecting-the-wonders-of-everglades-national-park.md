@@ -4,7 +4,7 @@ author: Emily Kamin
 excerpt: NPF Funding is Helping Support Several Projects to Protect the Park's Natural Resources
 intro: From wildlife protection to enhancing the visitor experience, NPF supports a range of projects at the South Florida National Park.
 image:
-  src: https://npf-prod.imgix.net/uploads/70956c5083694d788e6aad7c003b6fa1.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=872&q=80&w=1550
+  src: https://nationalparks.org/uploads/70956c5083694d788e6aad7c003b6fa1.jpg
   width: 1600
   height: 900
   alt: Everglades National Park

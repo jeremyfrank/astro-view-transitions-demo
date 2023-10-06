@@ -4,7 +4,7 @@ author: Annie Brackemyre
 excerpt: Restoring Access to Ancestral Land Along the Musconetcong Wild and Scenic River
 intro: Musconetcong Wild and Scenic River courses through western New Jersey’s highlands. The river is home to water buffalo and shad, and on any given day, you’ll find fishermen along the banks and paddlers working their way down stream.
 image:
-  src: https://npf-prod.imgix.net/uploads/7c5a1b5067c74931a0d2afda0122310c.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=900&q=80&w=1600
+  src: https://nationalparks.org/uploads/7c5a1b5067c74931a0d2afda0122310c.jpg
   width: 1600
   height: 900
   alt: Two people, wearing matching blue shirts, work on a trail. One holds a shovel and digs into the ground while another holds a rake.

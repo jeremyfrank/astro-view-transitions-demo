@@ -4,7 +4,7 @@ author: Emily Kamin
 excerpt: There's No One Experience for People with Disabilities. NPF Funding Help Ensure Everyone Can Experience the Wonder of Our Parks
 intro: NPF Accessibility grants are helping parks such as Harpers Ferry and Devil's Tower ensure all people connect to and enjoy our national parks.
 image:
-  src: https://npf-prod.imgix.net/uploads/harpersferrynhp_frommarylandheightsoverlook_nps_flickr_buddysecor.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=759&q=80&w=1350
+  src: https://nationalparks.org/uploads/harpersferrynhp_frommarylandheightsoverlook_nps_flickr_buddysecor.jpg
   width: 1600
   height: 900
   alt: Overlook onto the confluence of rivers at sunset

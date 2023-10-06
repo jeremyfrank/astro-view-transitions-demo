@@ -4,7 +4,7 @@ author: Annie Brackemyre
 excerpt: NPF funded research is helping track great white sharks, protecting the species, and enabling public safety officials to use science to educate the public on the risk of recreating in the waters off Cape Cod National Seashore.
 intro: Every week is shark week during the summers at Cape Cod National Seashore. White sharks (_Carcharodon carcharias_), also known as great whites, are just as ubiquitous with summers at Cape Cod National Seashore as lobster rolls.
 image:
-  src: https://npf-prod.imgix.net/uploads/CapeCodNS_AtlanticWhiteShark_NPS_BillFisher.jpeg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=900&q=80&w=1600
+  src: https://nationalparks.org/uploads/CapeCodNS_AtlanticWhiteShark_NPS_BillFisher.jpeg
   width: 1600
   height: 900
   alt: White shark photographed underwater
@@ -20,11 +20,11 @@ In recent decades, gray seal populations at Cape Cod National Seashore have rebo
 
 ## Predicting Shark Behavior Along the Coast
 
-![Underwater photo of a white shark swimming](https://npf-prod.imgix.net/uploads/GreatWhiteShark_Unsplash_oleksandr-sushko-ZZbzBGY_Hjo.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=720&q=80&w=1080)
+![Underwater photo of a white shark swimming](https://nationalparks.org/uploads/GreatWhiteShark_Unsplash_oleksandr-sushko-ZZbzBGY_Hjo.jpg)
 
 White shark (Unsplash / Oleksandr Sushko)
 
-![Blue ocean is visible beyond a wooden fence and green shrubbery](https://npf-prod.imgix.net/uploads/CapeCodNS_MarconiSite_NPS_BrittniConnell.jpeg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=720&q=80&w=1080)
+![Blue ocean is visible beyond a wooden fence and green shrubbery](https://nationalparks.org/uploads/CapeCodNS_MarconiSite_NPS_BrittniConnell.jpeg)
 
 Ocean view from Marconi Site at Cape Cod National Seashore (NPS Photo)
 

@@ -4,7 +4,7 @@ author: Annie Brackemyre
 excerpt: How a 17-Year-Old from Southwest D.C. Found Confidence 2,000 Miles from Home and 13,000 Feet in the Air
 intro: Waking up to the sound of rain, Desahray Johnson began her day at Broken Arrow Ranch in Jackson Hole, Wyoming. It was August 7, 2022 and time for Johnson to begin her two-day climb up Grand Teton, a gruelling ascent 2.5 miles above sea level to the tallest peak in the Teton range.
 image:
-  src: https://npf-prod.imgix.net/uploads/52375303624_afb113bcf6_o-1.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=900&q=80&w=1600
+  src: https://nationalparks.org/uploads/52375303624_afb113bcf6_o-1.jpg
   width: 1600
   height: 900
   alt: Two people sit at the top of a mountain, above clouds. They wear orange helmets and one curls a bicep
