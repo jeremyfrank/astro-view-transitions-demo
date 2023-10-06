@@ -6,7 +6,7 @@ intro: From wildlife protection to enhancing the visitor experience, NPF support
 image:
   src: https://nationalparks.org/uploads/70956c5083694d788e6aad7c003b6fa1.jpg
   width: 1600
-  height: 900
+  height: 1066
   alt: Everglades National Park
 ---
 

@@ -6,7 +6,7 @@ intro: Musconetcong Wild and Scenic River courses through western New Jersey’s
 image:
   src: https://nationalparks.org/uploads/7c5a1b5067c74931a0d2afda0122310c.jpg
   width: 1600
-  height: 900
+  height: 1067
   alt: Two people, wearing matching blue shirts, work on a trail. One holds a shovel and digs into the ground while another holds a rake.
 ---
 

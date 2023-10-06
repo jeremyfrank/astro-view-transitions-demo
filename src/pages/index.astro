@@ -12,15 +12,17 @@ const imageRatio = 0.3125;
     {
       allStories.map((story) => (
         <li class="relative flex flex-col gap-4">
-          <Image
-            src={story.data.image.src}
-            width={story.data.image.width * imageRatio}
-            height={story.data.image.height * imageRatio}
-            style="contain: paint;"
-            class="w-full"
-            alt=""
-            transition:name={`img-story-${story.slug}`}
-          />
+          <div class="relative aspect-video">
+            <Image
+              src={story.data.image.src}
+              width={story.data.image.width * imageRatio}
+              height={story.data.image.height * imageRatio}
+              style="contain: paint;"
+              class="object-cover absolute w-full h-full"
+              alt=""
+              transition:name={`img-story-${story.slug}`}
+            />
+          </div>
           <a href={`/stories/${story.slug}`} class="text-xl hover:underline">
             {story.data.title}
             <span class="absolute inset-0" />

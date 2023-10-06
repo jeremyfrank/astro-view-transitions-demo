@@ -6,7 +6,7 @@ intro: Every week is shark week during the summers at Cape Cod National Seashore
 image:
   src: https://nationalparks.org/uploads/CapeCodNS_AtlanticWhiteShark_NPS_BillFisher.jpeg
   width: 1600
-  height: 900
+  height: 796
   alt: White shark photographed underwater
 ---
 
