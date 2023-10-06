@@ -19,7 +19,7 @@ const imageRatio = 0.3125;
               height={story.data.image.height * imageRatio}
               style="contain: paint;"
               class="object-cover absolute w-full h-full"
-              alt=""
+              alt={story.data.image.alt}
               transition:name={`img-story-${story.slug}`}
             />
           </div>
