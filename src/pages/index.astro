@@ -4,7 +4,6 @@ import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const allStories = await getCollection("stories");
-const imageRatio = 0.3125;
 ---
 
 <BaseLayout>
@@ -15,8 +14,8 @@ const imageRatio = 0.3125;
           <div class="relative aspect-video">
             <Image
               src={story.data.image.src}
-              width={story.data.image.width * imageRatio}
-              height={story.data.image.height * imageRatio}
+              width={story.data.image.width}
+              height={story.data.image.height}
               style="contain: paint;"
               class="object-cover absolute w-full h-full"
               alt={story.data.image.alt}
