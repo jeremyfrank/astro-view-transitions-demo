@@ -22,10 +22,13 @@ const allStories = await getCollection("stories");
               transition:name={`img-story-${story.slug}`}
             />
           </div>
-          <a href={`/stories/${story.slug}`} class="text-xl hover:underline">
-            {story.data.title}
-            <span class="absolute inset-0" />
-          </a>
+          <div>
+            <a href={`/stories/${story.slug}`} class="text-xl hover:underline">
+              {story.data.title}
+              <span class="absolute inset-0" />
+            </a>
+            <p class="text-gray-700 text-sm">By {story.data.author}</p>
+          </div>
           <p class="text-gray-700">{story.data.excerpt}</p>
         </li>
       ))
